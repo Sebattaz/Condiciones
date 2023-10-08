@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+.desa{
+    margin: 20px;
+    width: 800px;
+    height: 500px;
+    border: 1px solid blue;
+}
+.Click{
+    background-image: url(/asset/img/fondo1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Click img{
+    width: 200px;
+    height: 210px;
+    margin: 40px;    
+}
+.imgclick{
+
+    border-radius: 20px;
+    border: red 1px  solid;
+}
+.Click input{
+    width: 80px;
+    height: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sti{
+    width: 275px ;
+    height: 549px;
+    background-image: url(/asset/img/card.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sti img{
+    width:250px;
+    margin-top: 30px;
+}
+.Sticker{
+    width: 900px;
+    height: 800px;
+}
+.cantSti{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.veriSti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Paswd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selPas{
+    margin: 100px;
+}
+.btnPas{
+    width: 80px;
+    height: 25px;
+}
